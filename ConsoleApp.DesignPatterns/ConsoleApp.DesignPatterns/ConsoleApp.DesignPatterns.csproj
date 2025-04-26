@@ -8,8 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Patterns\Creational\Factory\ChargingOptionEnum.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Patterns\Behavioral\" />
-    <Folder Include="Patterns\Creational\Factory\" />
     <Folder Include="Patterns\Sctructural\" />
   </ItemGroup>
 
